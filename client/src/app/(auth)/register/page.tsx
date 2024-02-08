@@ -8,6 +8,7 @@ const Register = () => {
   const handleClickButton = () => {
     route.push("/");
   };
+
   return (
     <div>
       <p>This is Register</p>
