@@ -3,7 +3,7 @@ import { memo } from "react";
 const SocialMedia = () => {
   return (
     <div className="w-full">
-      <div className="mb-5 flex items-center" style={{ gap: 10 }}>
+      <div className="mb-5 flex items-center" style={{ gap: 16 }}>
         <div>
           {/* <!-- Upwork --> */}
           <a
