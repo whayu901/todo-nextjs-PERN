@@ -4,6 +4,7 @@ export interface FeatureProjectProps {
   typeProject: string;
   urlImg: string;
   urlProject: string;
+  description: string;
 }
 
 export const DataFeatureProject: FeatureProjectProps[] = [
@@ -13,5 +14,14 @@ export const DataFeatureProject: FeatureProjectProps[] = [
     typeWork: "Design Mobile App",
     urlImg: "",
     urlProject: "",
+    description: "",
+  },
+  {
+    name: "K-OINS",
+    typeProject: "Mobile App",
+    typeWork: "Mobile App & Dashboard",
+    urlImg: "",
+    urlProject: "",
+    description: "",
   },
 ];
