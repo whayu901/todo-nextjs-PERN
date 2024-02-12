@@ -4,6 +4,7 @@ import "dayjs/locale/id";
 
 import "./globals.css";
 
+// * setup day js follow indonesia time
 dayjs.locale("id");
 
 export const metadata: Metadata = {
