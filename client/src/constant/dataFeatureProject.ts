@@ -24,4 +24,12 @@ export const DataFeatureProject: FeatureProjectProps[] = [
     urlProject: "",
     description: "",
   },
+  {
+    name: "E-Langsung",
+    typeProject: "Mobile App",
+    typeWork: "Mobile App & Dashboard",
+    urlImg: "",
+    urlProject: "",
+    description: "",
+  },
 ];
