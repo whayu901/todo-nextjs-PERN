@@ -8,7 +8,7 @@ export interface FeatureProjectProps {
   name: string;
   typeWork: string;
   typeProject: string;
-  urlImg: string | StaticImageData;
+  urlImg: string | any;
   urlProject: string;
   description: string;
 }

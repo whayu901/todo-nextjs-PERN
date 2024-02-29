@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 
 import ScrollDownAnimation from "../../assets/lottie/scroll-down.json";
 import SocialMedia from "@/shared/components/socialMedia";
+import ListProjects from "@/shared/components/listProjects";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
             <p className="text-midnight text-xl">About Me</p>
           </div>
           <div className="mt-5">
-            <p className="text-white text-2xl">
+            <p className="text-white text-3xl">
               Hi, I am Wahyu! Frontend developer with 5+ years experience of
               proven meaningfully contributions to teams of varying size and
               scope. With my results-driven mentality. Passionate about going
@@ -47,7 +48,7 @@ export default function Home() {
             </p>
             <div className="flex justify-between lg:flex-row sm:flex-col items-start mt-10">
               <div className="w-[60%] md:w-full">
-                <p className="text-white text-2xl">
+                <p className="text-white text-3xl">
                   I understand the importance of the a Pixel-perfect Website,
                   pride myself on producing high-quality websites. and i'm
                   comfortable working solo or as part of a team
@@ -73,6 +74,16 @@ export default function Home() {
       <section id="overview-project" className="h-screen">
         <div className="container my-10">
           <p className="text-midnight text-xl">Featured Projects</p>
+          <div className="pt-2 max-w-[50%]">
+            <p className="text-white text-3xl">
+              I craft digital solutions that showcase my passion and expertise
+              in design and development
+            </p>
+          </div>
+
+          <div className="pt-10">
+            <ListProjects />
+          </div>
         </div>
       </section>
     </main>
