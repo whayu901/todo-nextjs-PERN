@@ -49,8 +49,8 @@ export default function Home() {
               <div className="w-[60%] md:w-full">
                 <p className="text-white text-2xl">
                   I understand the importance of the a Pixel-perfect Website,
-                  pride myself on producing high-qualit websites. and i'm
-                  comfotable working solo or as part of a team
+                  pride myself on producing high-quality websites. and i'm
+                  comfortable working solo or as part of a team
                 </p>
                 <div className="mt-10 visible">
                   <p className="text-midnight text-xl mb-2">My Social Media</p>

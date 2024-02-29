@@ -29,7 +29,8 @@ export const DataFeatureProject: FeatureProjectProps[] = [
     urlImg: KOINSImage,
     urlProject:
       "https://play.google.com/store/apps/details?id=id.co.koneksindo.kadenceandroidpanel&hl=in",
-    description: "",
+    description:
+      "I create new app for kadence international. Because basically K-oins is on of subsidaries from kadence international business. K-oins is actually app for getting and gathering data from user about their thought about particulary topic. Start from automotive, customer good and more. I have responsibility to create K-OINS with flutter and react native.",
   },
   {
     name: "E-Langsung",
@@ -38,6 +39,7 @@ export const DataFeatureProject: FeatureProjectProps[] = [
     urlImg: ElangsungImage,
     urlProject:
       "https://play.google.com/store/apps/details?id=com.elangsung.club&hl=en&gl=US",
-    description: "",
+    description:
+      "Elangsung is fun project that i ever have. Because i have multiple responsibility in here. Because i handled so much role start from mobile developer and also i have handled for website developer. Stack that i used mostly is ReactJS and flutter for mobile app",
   },
 ];
