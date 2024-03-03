@@ -13,10 +13,10 @@ const ListProjects = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-3  auto-rows-fr">
+      <div className="grid grid-cols-2 gap-4  auto-rows-fr">
         {DataFeatureProject?.map((item, index) => (
           <div key={index} className="p-3">
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-[15px] overflow-hidden">
               <img src={item?.urlImg} alt="img-project" />
             </div>
             <div className="flex flex-row justify-between mt-3">
@@ -31,7 +31,7 @@ const ListProjects = () => {
         ))}
       </div>
 
-      <div className="mt-2 flex justify-center">
+      <div className="mt-4 flex justify-center">
         <button className="text-white border py-2 px-3 font-bold rounded-lg text-xl">
           Explore all the project
         </button>

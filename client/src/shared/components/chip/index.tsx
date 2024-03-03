@@ -10,6 +10,10 @@ const Chip = ({ title, onClick }: ChipProps) => {
     <div
       className={`border border-white rounded-[50px] text-white text-center py-2 px-3 ${
         onClick ? "cursor-pointer" : "cursor-default"
+      } hover:${
+        onClick ? "border-yellow-600" : "scale-0"
+      }  hover:shadow-md hover:${
+        onClick ? "shadow-yellow-600" : "shadow-none"
       }`}
       onClick={onClick}
     >

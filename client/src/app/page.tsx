@@ -31,6 +31,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section id="aboutme" className="border-b-[1px] border-b-midnight">
         <div className="container my-10">
           <div className="flex items-center justify-between">
@@ -71,7 +72,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="overview-project" className="h-screen">
+      <section
+        id="overview-project"
+        className="border-b-[1px] border-b-midnight"
+      >
         <div className="container my-10">
           <p className="text-midnight text-xl">Featured Projects</p>
           <div className="pt-2 max-w-[50%]">
