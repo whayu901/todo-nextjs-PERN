@@ -8,7 +8,7 @@ interface ChipProps {
 const Chip = ({ title, onClick }: ChipProps) => {
   return (
     <div
-      className={`border border-white rounded-[50px] text-white text-center py-2 px-3 ${
+      className={`border border-nightLine rounded-[50px] text-white text-center py-2 px-3 ${
         onClick ? "cursor-pointer" : "cursor-default"
       } hover:${
         onClick ? "border-yellow-600" : "scale-0"
