@@ -19,7 +19,7 @@ const ListProjects = () => {
             <div className="rounded-[15px] overflow-hidden">
               <img src={item?.urlImg} alt="img-project" />
             </div>
-            <div className="flex flex-row justify-between mt-3">
+            <div className="flex flex-row justify-between mt-4">
               <Chip title={item.typeProject} />
               <Chip title={item.typeWork} />
               <Chip

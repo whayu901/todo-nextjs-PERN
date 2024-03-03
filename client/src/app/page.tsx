@@ -22,7 +22,7 @@ export default function Home() {
             </p>
           </div>
 
-          <button className="mt-8 border px-5 py-1 rounded-xl hover:border-yellow-600 hover:shadow-md hover:shadow-yellow-600">
+          <button className="transition ease-in-out delay-150 duration-200 mt-8 border px-5 py-1 rounded-xl hover:border-yellow-600 hover:shadow-md hover:shadow-yellow-600">
             <p className=" text-white">Say Hi 🙏</p>
           </button>
 
@@ -78,7 +78,7 @@ export default function Home() {
       >
         <div className="container my-10">
           <p className="text-midnight text-xl">Featured Projects</p>
-          <div className="pt-2 max-w-[50%]">
+          <div className="pt-2 max-w-[60%]">
             <p className="text-white text-3xl">
               I craft digital solutions that showcase my passion and expertise
               in design and development
@@ -88,6 +88,20 @@ export default function Home() {
           <div className="pt-10">
             <ListProjects />
           </div>
+        </div>
+      </section>
+
+      <section id="what-i-do" className="border-b-[1px] border-b-midnight">
+        <div className="container my-10">
+          <p className="text-midnight text-xl">What Do I Do And How?</p>
+          <div className="pt-2 max-w-[60%]">
+            <p className="text-white text-3xl">
+              I love to craft functional solutions for unique problems. These
+              are some skills I've picked up over my career.
+            </p>
+          </div>
+
+          <div className="pt-10">{/* <ListProjects /> */}</div>
         </div>
       </section>
     </main>
