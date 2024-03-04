@@ -17,6 +17,8 @@ const config: Config = {
         night: "#0a0a0a",
         midnight: "#5a5a5a",
         nightLine: "#40464A",
+        nightWhite: "#dedede",
+        whiteText: "#959595",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

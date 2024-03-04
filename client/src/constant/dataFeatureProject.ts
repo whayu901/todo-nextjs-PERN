@@ -1,4 +1,4 @@
-export interface FeatureProjectProps {
+export interface IFeatureProject {
   name: string;
   typeWork: string;
   typeProject: string;
@@ -7,7 +7,7 @@ export interface FeatureProjectProps {
   description: string;
 }
 
-export const DataFeatureProject: FeatureProjectProps[] = [
+export const DataFeatureProject: IFeatureProject[] = [
   {
     name: "Asian Agri App",
     typeProject: "Mobile App",

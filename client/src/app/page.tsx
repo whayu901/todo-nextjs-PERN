@@ -5,6 +5,7 @@ import Lottie from "lottie-react";
 import ScrollDownAnimation from "../../assets/lottie/scroll-down.json";
 import SocialMedia from "@/shared/components/socialMedia";
 import ListProjects from "@/shared/components/listProjects";
+import ListTechStack from "@/shared/components/listTechStack";
 
 export default function Home() {
   return (
@@ -101,7 +102,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="pt-10">{/* <ListProjects /> */}</div>
+          <div className="pt-10">
+            <ListTechStack />
+          </div>
         </div>
       </section>
     </main>
