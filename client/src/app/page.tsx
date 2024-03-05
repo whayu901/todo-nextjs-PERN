@@ -6,6 +6,7 @@ import ScrollDownAnimation from "../../assets/lottie/scroll-down.json";
 import SocialMedia from "@/shared/components/socialMedia";
 import ListProjects from "@/shared/components/listProjects";
 import ListTechStack from "@/shared/components/listTechStack";
+import TimeLineStepDevelopment from "./components/TimeLineStepDevelopment";
 
 export default function Home() {
   return (
@@ -104,6 +105,10 @@ export default function Home() {
 
           <div className="pt-10">
             <ListTechStack />
+          </div>
+
+          <div className="mt-10">
+            <TimeLineStepDevelopment />
           </div>
         </div>
       </section>
