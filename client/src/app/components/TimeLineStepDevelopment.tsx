@@ -17,6 +17,10 @@ const TimeLineStepDevelopment = () => {
             />
             <p className="text-white">{item.title}</p>
           </div>
+
+          <div>
+            <p className="text-whiteText text-sm">{item.description}</p>
+          </div>
         </div>
       ))}
     </div>
